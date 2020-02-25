@@ -28,10 +28,14 @@ import React, { Component } from 'react'
           topic:event.target.value
       })
   }
-  
+
+  handleSubmit=(event)=>{
+     alert(`${this.state.username} ${this.state.comments}${this.state.comments} `)
+    event.preventDefault()
+    }
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
             <div className="App">
 
                 <label >Username</label>
