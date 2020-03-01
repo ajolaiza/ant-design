@@ -1,8 +1,16 @@
-@import '~antd/dist/antd.css';
-.App {
-  text-align: left;
-}
 
+.App-container{
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+
+}
+.ant-tabs-nav{
+
+  display:inherit;
+  position: relative;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
